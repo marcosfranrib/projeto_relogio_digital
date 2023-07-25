@@ -25,7 +25,7 @@
     height: 170px;
     width: 370px;
     justify-content: space-evenly;
-    background-color: antiquewhite;
+    background-color: ;
     border-radius: 20px;
     box-shadow: 1px 1px 3px #3f3838;
 
@@ -37,35 +37,34 @@
     overflow: hidden;
     font-size: 40px;
     padding-bottom: 15px;
-    background-color: black;
-    color: white;
+    background-color: #1B4859;
+    color:rgb(241, 227, 227);
     border-radius: 10px;
     border: 0.5px solid #6b6363;
 
 }
 
 #hora::after,#minuto::after,#segundo::after{
-    font-size: 10px;
-
-}
-
-#hora::after,#minuto::after,#segundo::after{
-    content: 'HORAS';
+    content: 'Horas';
     width: 74px;
     position: absolute;
     text-align: center;
-    margin-top: 105px;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 102px;
     padding: 10px;
-    background-color: #6e6c70;
+    background-color: #256e88;
+    color: #E9EFF2;
+
 
 }
 
 #minuto::after{
-    content: 'MINUTOS';
+    content: 'Minutos';
 }
 
 #segundo::after{
-    content: 'SEGUNDOS';
+    content: 'Segundos';
 }
 
 
