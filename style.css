@@ -9,7 +9,7 @@
 
 }
 
-#container-geral,#container-relogio{
+#container-geral,#container-relogio,.padrao-div{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -28,18 +28,56 @@
     background-color: antiquewhite;
     border-radius: 20px;
     box-shadow: 1px 1px 3px #3f3838;
+
 }
 
 .padrao-div{
-    font-size: 30px;
+    font-size: 40px;
     background-color: black;
+    padding-bottom: 15px;
     color: white;
-    padding: 30px;
-    border-radius: 15px;
+    height: 120px;
+    width: 90px;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    border: 0.5px solid #6b6363;
+
 }
 
-.ponto-hora{
-    font-size: 40px;
+#hora::after,#minuto::after,#segundo::after{
+    font-size: 10px;
+
+}
+
+#hora::after,#minuto::after,#segundo::after{
+    margin-top: 105px;
+    position: absolute;
+    text-align: center;
+    content: 'HORA';
+    background-color: #bcb5c2;
+    padding: 10px;
+    width: 74px;
+
+}
+
+#minuto::after{
+    content: 'MINUTO';
+}
+
+#segundo::after{
+    content: 'SEGUNDO';
+}
+
+
+
+
+#container-pontos{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 127px;
+    font-size: 50px;
     font-family: 'Lato', sans-serif;
 
 }

@@ -14,11 +14,11 @@ setInterval(function tempo(){
     if(m < 10){m = '0' + m}
     if(s < 10){s = '0' + s}
 
-    horario.innerHTML = h
+
+    horario.innerHTML = h 
     minuto.innerHTML = m
     segundo.innerHTML = s
-
-
+   
 })
 
 
