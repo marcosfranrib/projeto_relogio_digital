@@ -1,11 +1,12 @@
 @charset "utf-8";
-@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=REM&display=swap');
+
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'REM', sans-serif;
 
 }
 
@@ -25,7 +26,7 @@
     height: 170px;
     width: 370px;
     justify-content: space-evenly;
-    background-color: ;
+    background-color: rgb(250, 142, 142);
     border-radius: 20px;
     box-shadow: 1px 1px 3px #3f3838;
 
@@ -50,7 +51,6 @@
     position: absolute;
     text-align: center;
     font-size: 12px;
-    font-weight: bold;
     margin-top: 102px;
     padding: 10px;
     background-color: #256e88;
