@@ -32,15 +32,14 @@
 }
 
 .padrao-div{
-    font-size: 40px;
-    background-color: black;
-    padding-bottom: 15px;
-    color: white;
     height: 120px;
-    width: 90px;
-    border-radius: 10px;
-    position: relative;
+    width: 90px;position: relative;
     overflow: hidden;
+    font-size: 40px;
+    padding-bottom: 15px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
     border: 0.5px solid #6b6363;
 
 }
@@ -51,31 +50,31 @@
 }
 
 #hora::after,#minuto::after,#segundo::after{
-    margin-top: 105px;
+    content: 'HORAS';
+    width: 74px;
     position: absolute;
     text-align: center;
-    content: 'HORA';
-    background-color: #bcb5c2;
+    margin-top: 105px;
     padding: 10px;
-    width: 74px;
+    background-color: #6e6c70;
 
 }
 
 #minuto::after{
-    content: 'MINUTO';
+    content: 'MINUTOS';
 }
 
 #segundo::after{
-    content: 'SEGUNDO';
+    content: 'SEGUNDOS';
 }
 
 
 
 
 #container-pontos{
-    position: absolute;
     display: flex;
     justify-content: space-between;
+    position: absolute;
     width: 127px;
     font-size: 50px;
     font-family: 'Lato', sans-serif;
