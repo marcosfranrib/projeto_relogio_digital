@@ -7,28 +7,30 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'REM', sans-serif;
-
+    
 }
 
 #container-geral,#container-relogio,.padrao-div{
     display: flex;
     justify-content: center;
     align-items: center;
+   
 
 }
 
 #container-geral{
     height: 100vh;
-    
+    background-image: linear-gradient(to left,#012840,#023554);
 }
 
 #container-relogio{
     height: 170px;
     width: 370px;
     justify-content: space-evenly;
-    background-color: rgb(250, 142, 142);
+   
+ 
     border-radius: 20px;
-    box-shadow: 1px 1px 3px #3f3838;
+    border: 1px solid white;
 
 }
 
@@ -38,10 +40,9 @@
     overflow: hidden;
     font-size: 40px;
     padding-bottom: 15px;
-    background-color: #1B4859;
-    color:rgb(241, 227, 227);
+    color:#fff2f2;
     border-radius: 10px;
-    border: 0.5px solid #6b6363;
+    border: 1px solid;
 
 }
 
@@ -50,12 +51,11 @@
     width: 74px;
     position: absolute;
     text-align: center;
-    font-size: 12px;
-    margin-top: 102px;
+    font-size: 10px;
+    margin-top: 80px;
     padding: 10px;
-    background-color: #256e88;
     color: #E9EFF2;
-
+    
 
 }
 
@@ -67,9 +67,6 @@
     content: 'Segundos';
 }
 
-
-
-
 #container-pontos{
     display: flex;
     justify-content: space-between;
@@ -77,5 +74,6 @@
     width: 127px;
     font-size: 50px;
     font-family: 'Lato', sans-serif;
+    color: #E9EFF2;
 
 }
