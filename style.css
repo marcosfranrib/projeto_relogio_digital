@@ -37,7 +37,7 @@ body{
 }
 
 #chk:checked ~ #tema > #circulo{
-   transform: translateX(43px);
+   transform: translateX(46px);
    background-color: #021d2e;
    
 }
