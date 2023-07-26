@@ -16,31 +16,26 @@ body{
 
 #chk{
     display: none;
-
-}
-
-#chk:checked ~ #tema{
-    background-color: blue;
-
 }
 
 #tema{
     position: relative;
-    height: 30px;
-    width: 100px;
+    height: 33px;
+    width: 85px;
     border-radius: 15px;
     color: white;
     font-size: 12px;
     display: flex;
-    background-color: red;
+  
 }
 
 #circulo{
     position: absolute;
     border-radius: 50%;
-    padding: 15px;
-    margin-left: 2px;
-    background-color:#e91717;
+    padding: 13.5px;
+    top: 2.5px;
+    left: 3px;
+    background-color:#aca5a5;
     
 
 }
@@ -102,16 +97,5 @@ body{
 
 #segundo::after{
     content: 'Segundos';
-
-}
-
-#container-pontos{
-    display: flex;
-    justify-content: space-between;
-    position: absolute;
-    width: 127px;
-    font-size: 50px;
-    font-family: 'Lato', sans-serif;
-    color: #E9EFF2;
 
 }
