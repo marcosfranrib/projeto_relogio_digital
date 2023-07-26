@@ -32,8 +32,11 @@ function mudar(){
     if(check.checked == false){
         body.backgroundColor = 'black'
         containerR.style.backgroundColor = '#021d2e'
+
         for(let c=0; c <= div.length; c++){
-            div[c].style.backgroundColor = 'white'
+           
+            div[c].style.backgroundColor = '#fff2f2'
+            div[c].style.color ='#021d2e'
     
         }
         
@@ -41,9 +44,12 @@ function mudar(){
         body.backgroundColor = '#fff2f2'
         containerR.style.backgroundColor = ''
         for(let c=0; c <= div.length; c++){
-            div[c].style.backgroundColor = 'white'
+           
+            div[c].style.backgroundColor = '#021d2e'
+            div[c].style.color ='#fff2f2'
     
         }
+
     }
 
     

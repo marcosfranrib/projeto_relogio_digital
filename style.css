@@ -18,14 +18,49 @@ body{
     display: none;
 }
 
+#chk:checked ~ #tema{
+    background-color: #e6e5e3;
+}
+
+#chk:checked ~ #tema > #sol{
+    color: #021d2e;
+}
+
+#chk:not(:checked) ~ #tema > #sol{
+    color:#021d2e;
+
+}
+
+#chk:checked ~ #tema > #lua{
+    color:#e6e5e3;
+
+}
+
+#chk:checked ~ #tema > #circulo{
+   transform: translateX(43px);
+   background-color: #021d2e;
+   
+}
+
+#chk:checked ~ #container-relogio > .padrao-div::after{
+    color: #021d2e;
+    border: 0.1px solid #021d2e;
+
+}
+
 #tema{
     position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 7px;
     height: 33px;
-    width: 85px;
-    border-radius: 15px;
+    width: 80px;
+    border-radius: 30px;
     color: white;
     font-size: 12px;
     display: flex;
+    background-color: #021d2e;
   
 }
 
@@ -34,9 +69,9 @@ body{
     border-radius: 50%;
     padding: 13.5px;
     top: 2.5px;
-    left: 3px;
-    background-color:#aca5a5;
-    
+    left: 4px;
+    background-color:#e6e3e3;
+    transition: transform 0.5s ease;
 
 }
 
@@ -76,7 +111,7 @@ body{
 
 }
 
-#hora::after,#minuto::after,#segundo::after{
+.padrao-div::after{
     content: 'Horas';
     width: 74px;
     position: absolute;
