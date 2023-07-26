@@ -1,6 +1,5 @@
 
 setInterval(function tempo(){
-   
     let hora = new Date()
     let h = hora.getHours()
     let m = hora.getMinutes()
@@ -27,8 +26,6 @@ function mudar(){
     let containerR = document.getElementById('container-relogio')
     let div = document.getElementsByClassName('padrao-div')
 
-  
-
     if(check.checked == false){
         body.backgroundColor = 'black'
         containerR.style.backgroundColor = '#042b42'
@@ -50,11 +47,7 @@ function mudar(){
     
         }
 
-    }
-
-    
-
-    
+    }   
 
 }
 

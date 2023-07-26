@@ -14,16 +14,33 @@ body{
     background-color: #fff2f2;
 }
 
+#container-geral,#container-relogio,.padrao-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#container-geral{
+    height: 90vh;
+    flex-direction: column;
+    gap: 20px;
+    color: white;
+
+}
+
 #chk{
     display: none;
 }
 
 #chk:checked ~ #tema{
     background-color: #e6e5e3;
+
 }
 
 #chk:checked ~ #tema > #sol{
     color: #021d2e;
+
 }
 
 #chk:not(:checked) ~ #tema > #sol{
@@ -59,34 +76,18 @@ body{
     border-radius: 30px;
     color: white;
     font-size: 12px;
-    display: flex;
     background-color: #021d2e;
   
 }
 
 #circulo{
     position: absolute;
-    border-radius: 50%;
-    padding: 13.5px;
     top: 2.5px;
     left: 4px;
+    border-radius: 50%;
+    padding: 13.5px;
     background-color:#e6e3e3;
     transition: transform 0.5s ease;
-
-}
-
-#container-geral,#container-relogio,.padrao-div{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
-
-#container-geral{
-    height: 90vh;
-    flex-direction: column;
-    gap: 20px;
-    color: white;
 
 }
 
@@ -101,7 +102,8 @@ body{
 
 .padrao-div{
     height: 120px;
-    width: 90px;position: relative;
+    width: 90px;
+    position: relative;
     overflow: hidden;
     font-size: 40px;
     padding-bottom: 15px;
