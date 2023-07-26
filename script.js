@@ -31,7 +31,7 @@ function mudar(){
 
     if(check.checked == false){
         body.backgroundColor = 'black'
-        containerR.style.backgroundColor = '#021d2e'
+        containerR.style.backgroundColor = '#042b42'
 
         for(let c=0; c <= div.length; c++){
            
