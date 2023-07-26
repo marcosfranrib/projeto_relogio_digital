@@ -7,18 +7,36 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'REM', sans-serif;
-    
+
+}
+
+body{
+    background-color: #fff2f2;
+}
+
+#tema{
+    height: 30px;
+    width: 100px;
+    background-color: #021d2e;
+    border-radius: 15px;
+    color: white;
+    font-size: 12px;
+
 }
 
 #container-geral,#container-relogio,.padrao-div{
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
 #container-geral{
-    height: 100vh;
-    background-image: linear-gradient(to left,#094575,#0e476b);
+    height: 90vh;
+    flex-direction: column;
+    gap: 20px;
+    color: white;
+
 }
 
 #container-relogio{
