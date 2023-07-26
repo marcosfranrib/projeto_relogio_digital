@@ -50,10 +50,10 @@
     position: absolute;
     text-align: center;
     font-size: 10px;
-    margin-top: 80px;
-    padding: 10px;
+    margin-top: 85px;
+    padding: 4px 8px;
     color: #E9EFF2;
-    
+    border: 0.1px solid #e9eff25d;
 
 }
 
