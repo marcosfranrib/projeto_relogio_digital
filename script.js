@@ -21,4 +21,17 @@ setInterval(function tempo(){
    
 })
 
+function tema(){
+    let body = document.body
+    let checar = document.getElementsByName('checar')
+   
+    if(checar[0].checked){
+     body.style.backgroundColor = '#021d2e'
+
+    }else{
+
+        body.style.backgroundColor = '#fff2f2'
+    }
+
+}
 
