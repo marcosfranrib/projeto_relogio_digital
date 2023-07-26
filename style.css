@@ -14,13 +14,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-   
-
 }
 
 #container-geral{
     height: 100vh;
-    background-image: linear-gradient(to left,#07456b,#0b4264);
+    background-image: linear-gradient(to left,#094575,#0e476b);
 }
 
 #container-relogio{
